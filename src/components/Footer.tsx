@@ -28,14 +28,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">VetConsult</h3>
+            <h3 className="text-2xl font-bold mb-4">SEPets</h3>
             <p className="text-primary-foreground/80 mb-4 leading-relaxed">
               Especialistas en consultoría para clínicas veterinarias. 
               Mejoramos la gestión y calidad de atención para crear experiencias excepcionales.
             </p>
             <div className="space-y-2">
               <p className="text-primary-foreground/80">
-                <strong>Email:</strong> info@vetconsult.com
+                <strong>Email:</strong> info@sepets.com
               </p>
               <p className="text-primary-foreground/80">
                 <strong>Teléfono:</strong> +1 (234) 567-8900
@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/80 text-sm mb-4 md:mb-0">
-            © 2024 VetConsult. Todos los derechos reservados.
+            © 2024 SEPets. Todos los derechos reservados.
           </p>
           <div className="flex items-center text-primary-foreground/80 text-sm">
             <span>Hecho con</span>
