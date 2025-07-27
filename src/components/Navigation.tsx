@@ -70,7 +70,7 @@ const Navigation = () => {
                   {item.name}
                 </button>
               ))}
-              <Button className="w-full mt-2 bg-primary text-white hover:bg-primary/90 shadow-md transition">Agendar cita</Button>
+              
             </div>
           </div>
         )}
