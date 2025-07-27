@@ -6,12 +6,11 @@ const Footer = () => {
       { name: "Sobre Nosotros", href: "#about" },
       { name: "Nuestro Equipo", href: "#team" },
       { name: "Casos de Éxito", href: "#cases" },
-      { name: "Blog", href: "#blog" }
+      
     ],
     services: [
       { name: "Consultoría", href: "#services" },
       { name: "Capacitación", href: "#training" },
-      { name: "Auditorías", href: "#audits" },
       { name: "Soporte", href: "#support" }
     ],
     legal: [
@@ -35,13 +34,13 @@ const Footer = () => {
             </p>
             <div className="space-y-2">
               <p className="text-primary-foreground/80">
-                <strong>Email:</strong> info@sepets.com
+                <strong>Email:</strong> luchinitospinh@gmail.com
               </p>
               <p className="text-primary-foreground/80">
-                <strong>Teléfono:</strong> +1 (234) 567-8900
+                <strong>Teléfono:</strong> +57 3213377114
               </p>
               <p className="text-primary-foreground/80">
-                <strong>WhatsApp:</strong> +1 (234) 567-8901
+                <strong>WhatsApp:</strong> +57 3213377114
               </p>
             </div>
           </div>
@@ -101,7 +100,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/80 text-sm mb-4 md:mb-0">
-            © 2024 SEPets. Todos los derechos reservados.
+            © 2025 SEPets. Todos los derechos reservados.
           </p>
           <div className="flex items-center text-primary-foreground/80 text-sm">
             <span>Hecho con</span>

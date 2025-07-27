@@ -1,27 +1,27 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Stethoscope, TrendingUp, Users, Award } from "lucide-react";
+import { Scale, UserCheck, Shield, Calculator } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
     {
-      icon: <Stethoscope className="h-8 w-8 text-primary" />,
-      title: "Consultoría Clínica",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      icon: <Scale className="h-8 w-8 text-primary" />,
+      title: "Responsabilidad Estatal",
+      description: "Asistencia personalizada ante las organizaciones municipales y departamentales que realizan inspección, vigilancia y control en clínicas veterinarias."
     },
     {
-      icon: <TrendingUp className="h-8 w-8 text-primary" />,
-      title: "Optimización de Procesos",
-      description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      icon: <UserCheck className="h-8 w-8 text-primary" />,
+      title: "Gestión Humana",
+      description: "Asesoría y acompañamiento integral en la gestión del talento humano, incluyendo la elaboración de contratos laborales y el cumplimiento en seguridad y salud en el trabajo, especialmente enfocado en clínicas veterinarias."
     },
     {
-      icon: <Users className="h-8 w-8 text-primary" />,
-      title: "Capacitación de Personal",
-      description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      icon: <Shield className="h-8 w-8 text-primary" />,
+      title: "Seguridad Social",
+      description: "Gestion personalizada con las entidades de seguridad social y parafiscales, garantizando el cumplimiento de las obligaciones legales."
     },
     {
-      icon: <Award className="h-8 w-8 text-primary" />,
-      title: "Certificaciones y Calidad",
-      description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      icon: <Calculator className="h-8 w-8 text-primary" />,
+      title: "Nómina Laboral",
+      description: "Manejo de planilla de nomina laboral y liquidación de aportes y prestaciones sociales para empleados de la clínica veterinaria."
     }
   ];
 
@@ -33,9 +33,7 @@ const ServicesSection = () => {
             Nuestros Servicios
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ofrecemos soluciones integrales para mejorar la gestión y operación de tu clínica veterinaria, 
-            garantizando la mejor atención para las mascotas y sus familias.
-          </p>
+            Libérate de preocupaciones administrativas. Nosotros gestionamos los procesos y el cumplimiento, tú enfócate en tu clínica y tus pacientes.          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
